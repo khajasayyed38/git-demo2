@@ -6,9 +6,11 @@ public class App {
             System.out.println("welcome");
         }
     }
-    public void addedMethod(){
+    public static void addedMethod(){
         System.out.println("welcome");
     }
+
+
     public static void main(String[] args) {
         System.out.println("Hello world");
         add("java techie");
