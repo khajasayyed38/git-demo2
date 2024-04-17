@@ -1,7 +1,4 @@
 package git_demo;
-/*
-Hello world
-*/
 public class App {
 
     public static void add(String data){
