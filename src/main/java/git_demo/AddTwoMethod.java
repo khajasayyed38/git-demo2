@@ -11,11 +11,16 @@ public class AddTwoMethod extends App{
         return a+b;
     }
 
+    public String name(){
+        return "khaja";
+    }
+
     public static void main(String[] args) {
         AddTwoMethod addTwoMethod= new AddTwoMethod();
 //        addTwoMethod.addedMethod();
         App.addedMethod();
         System.out.println(addTwoMethod.addNumber(12,45));
+        System.out.println(addTwoMethod.name());
 
     }
 }
